@@ -324,7 +324,7 @@ fi
 
 
 if [ "${distribution_type}" =  "debian" ] ;then
-    distribution_rootfs_replace  debian   debian13  ${DISTR_DOWN_URI}/debian13.tar.gz  "aeeda080980a6f998526e8e49e786891"
+    distribution_rootfs_replace  debian   debian13  ${DISTR_DOWN_URI}/debian13.tar.gz  "c958b36f56d5e2a88446b03bb7dc6557"
 elif [ "${distribution_type}" =  "ubuntu" ] ;then
     distribution_rootfs_replace  ubuntu   ubuntu24  ${DISTR_DOWN_URI}/ubuntu24.tar.gz "32176750a7b7c283af60d5af8abbac63"
 elif [ "${distribution_type}" =  "debian_rootfs" ] ;then
